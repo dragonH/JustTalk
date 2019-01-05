@@ -1,0 +1,29 @@
+.subnav{
+    margin-left: 0px;
+}
+
+.pills-trigger{
+    margin-right: 0px;
+}
+
+.postrow{
+    margin-left: 0px;
+}
+
+.comment-hr{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.commentEdit:empty:before {
+    content: attr(data-placeholder);
+    color: gray;
+  }
+
+
+@media (max-width: 768px) { 
+    .user-img{
+        display:none;
+    }
+}
+
